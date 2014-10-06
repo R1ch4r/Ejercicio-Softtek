@@ -196,7 +196,7 @@ nav.main ul li a {
 .section.content {
 	width: 960px;
 	margin: 0 auto;
-	overflow: hidden
+	overflow: visible
 }
 .section.content .content {
 	width: 883px;
@@ -329,13 +329,8 @@ nav.main ul li a {
 .box.banner {
 	padding: 10px;
 	position: relative;
-	height: 278px
-}
-.box.banner img {
-	position: absolute;
-	left: 10px;
-	top: 10px;
-	display: none
+	height: 278px;
+	width: 860px;
 }
 .box.banner a.left-nav {
 	background: url(images/banners/left-arrow.png) no-repeat;
