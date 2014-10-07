@@ -1,119 +1,179 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>Angry Angler</title>
 <link rel="stylesheet" type="text/css" href="slick.css"/>
+<link rel="stylesheet" href="normalize.css" />
+<link rel="stylesheet" href="foundation.min.css" />
 <link href="styles.min.css" rel="stylesheet" type="text/css" />
+<script src="modernizr.js"></script>
 </head>
 <body>
-<div class="section header">
-  <div class="content">
-    <h1><a href="" class="logo" title="Angri Aangler"></a></h1>
-    <div id="topsearch">
-      <nav>
-        <ul>
-          <li><a href="">Sign In</a></li>
-          <li class="mark"><a href="">New Guest?</a></li>
-          <li class="mark"><a href="">Customer Service</a></li>
-        </ul>
-      </nav>
-      <form>
-        <input type="text" />
-        <div id="buttonwrap">
-          <button>SEARCH</button>
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <div class="section header">
+      <div class="content row">
+        <div class="large-5 columns left small-centered">
+          <h1><a href="index.html" title="Angry Aangler"><img data-interchange="[images/logo.png, (default)]"></a></h1>
         </div>
-      </form>
+        <div class="large-4 columns right hide-for-medium-down">
+          <div id="topsearch">
+            <nav>
+              <ul>
+                <ul>
+                  <li><a href="">Sign In</a></li>
+                  <li><a href="">New Guest?</a></li>
+                </ul>
+                <li class="mark"><a href="">Customer Service</a></li>
+              </ul>
+            </nav>
+            <form>
+              <input type="text" />
+              <div id="buttonwrap">
+                <button>SEARCH</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="menucenter"></div>
+        <nav class="main">
+          <ul class="hide-for-small">
+            <li class="selected"><a href="index.html" title="Home">home</a></li>
+            <li><a href="about.html" title="About">about</a></li>
+            <li><a href="javascript:void(0);" title="News">news</a></li>
+            <li><a href="javascript:void(0);" title="Contact">contact</a></li>
+          </ul>
+        </nav>
+        <div id="mobileMenu" class="hide-for-medium-up">
+          <nav class="tab-bar">
+            <section class="right-small"> <a class="right-off-canvas-toggle menu-icon" aria-expanded="false"><span></span></a> </section>
+          </nav>
+          <aside class="right-off-canvas-menu">
+            <ul class="off-canvas-list">
+              <li class="selected"><a href="index.html" title="Home">home</a></li>
+              <li><a href="about.html" title="About">about</a></li>
+              <li><a href="javascript:void(0);" title="News">news</a></li>
+              <li><a href="javascript:void(0);" title="Contact">contact</a></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="small-12 columns hide-for-large-up">
+          <div id="topsearch">
+            <nav>
+              <ul>
+                <ul>
+                  <li><a href="">Sign In</a></li>
+                  <li><a href="">New Guest?</a></li>
+                </ul>
+                <li class="mark"><a href="">Customer Service</a></li>
+              </ul>
+            </nav>
+            <form>
+              <input type="text" />
+              <div id="buttonwrap">
+                <button>SEARCH</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="menucenter"></div>
-    <nav class="main">
-      <ul>
-        <li class="selected"><a href="index.html" title="Home">home</a></li>
-        <li><a href="about.html" title="About">about</a></li>
-        <li><a href="javascript:void(0);" title="News">news</a></li>
-        <li><a href="javascript:void(0);" title="Contact">contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</div>
-<div class="section content">
-  <div class="content">
-    <div class="box banner">
-      <div class="slides">
-        <div><img src="images/banners/1.png" /></div>
-        <div><img src="images/banners/2.png" /></div>
-        <div><img src="images/banners/3.png" /></div>
-        <div><img src="images/banners/4.png" /> </div>
+    <div class="section content">
+      <div class="row">
+        <div class="box banner small-10 small-centered columns">
+          <div class="slides">
+            <div><img src="images/banners/1.png" /></div>
+            <div><img src="images/banners/2.png" /></div>
+            <div><img src="images/banners/3.png" /></div>
+            <div><img src="images/banners/4.png" /> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <div class="box title">
+            <h3> Aenean Nonummy</h3>
+            <p class="title">Consectetur Adipiscing Elit</p>
+            <p>Lorem ipsum dolor sit amet,<span style="font-weight:bold; color:#900;">consectetur adipiscing elit.</span> In rutrum diam nec metus ullamcorper consectetur. Sed tempor odio vitae mi imperdiet vulputate. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duis congue faucibus est,non volutpat nisi faucibus a. Nullam venenatis pretium justo sed adipiscing. Lorem ipsum dolor sit amet.</p>
+            <p class="title">Rutrum Diam Nec</p>
+            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. In rutrum diam nec metus ullamcorper consectetur. Sed tempor odio vitae mi imperdiet vulputate. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duis congue faucibus est,non volutpat nisi faucibus a. Nullam venenatis pretium justo sed adipiscing. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,consectetur adipiscing elit. In rutrum diam nec metus ullamcorper consectetur. Sed tempor odio vitae mi imperdiet vulputate. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duis congue faucibus est,non volutpat nisi faucibus a. Nullam venenatis pretium justo sed adipiscing. Lorem ipsum dolor sit amet.</p>
+            <ul>
+              <li>Vivamus vestibulum nulla nec ante</li>
+              <li>Praesent placerat risus quis eros</li>
+              <li>Fusce pellentesque suscipit nibh</li>
+              <li>Integer vitae libero ac risus egestas placerat</li>
+              <li>Vestibulum commodo felis quis tortor</li>
+            </ul>
+          </div>
+        </div>
+        <div class="small-12 large-4 columns">
+          <div class="box">
+            <h3 style="font-size: 24px;color: #666;">Dolor</h3>
+            <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Praesent um lestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. </p>
+            <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Lestie lacus. Aenean nonummy hendrerit mauris. Phasellus portatysce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
+          </div>
+        </div>
+        <div class="small-12 large-4 columns">
+          <div class="box ">
+            <h3 style="font-size: 24px;color: #666;">Hendrerit</h3>
+            <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Praesent um lestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
+            <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Lestie lacus. Aenean nonummy hendrerit mauris. Phasellus portatysce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
+          </div>
+        </div>
+        <div class="small-12 large-4 columns">
+          <div class="box">
+            <h3 style="font-size: 24px;color: #666;">Lestie</h3>
+            <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Praesent um lestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
+            <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Lestie lacus. Aenean nonummy hendrerit mauris. Phasellus portatysce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer row">
+      <div class="center hide-for-small"></div>
+      <div class="centerSmall show-for-small"></div>
+      <div id="footer">
+        <div class="block">
+          <div class="small-12 medium-6 columns">
+            <h5>HENDRERIT</h5>
+            <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Lestie lacus. Aenean nonummy hendrerit mauris. Phasellus portatysce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
+          </div>
+          <ul class="menu small-4 medium-2 medium-offset-3 columns">
+            <li class="title">about</li>
+            <li><a href="javascript:void(0);">Lorem</a></li>
+            <li><a href="javascript:void(0);">Ipsum</a></li>
+            <li><a href="javascript:void(0);">Dolor</a></li>
+            <li><a href="javascript:void(0);">Amet</a></li>
+          </ul>
+          <ul class="menu small-4 medium-2 small-offset-1 medium-offset-0 columns">
+            <li class="title">news</li>
+            <li><a href="javascript:void(0);">Lorem</a></li>
+            <li><a href="javascript:void(0);">Ipsum</a></li>
+            <li><a href="javascript:void(0);">Dolor</a></li>
+            <li><a href="javascript:void(0);">Amet</a></li>
+          </ul>
+          <ul class="menu small-4 medium-2 small-offset-1 medium-offset-0 columns">
+            <li class="title">contact</li>
+            <li><a href="javascript:void(0);">Lorem</a></li>
+            <li><a href="javascript:void(0);">Ipsum</a></li>
+            <li><a href="javascript:void(0);">Dolor</a></li>
+            <li><a href="javascript:void(0);">Amet</a></li>
+          </ul>
+        </div>
+        <div class="small-12 columns">
+          <div class="copy">Copyright © 2003-2012 </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="box title">
-    <h3> Aenean Nonummy</h3>
-    <p class="title">Consectetur Adipiscing Elit</p>
-    <p>Lorem ipsum dolor sit amet,<span style="font-weight:bold; color:#900;">consectetur adipiscing elit.</span> In rutrum diam nec metus ullamcorper consectetur. Sed tempor odio vitae mi imperdiet vulputate. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duis congue faucibus est,non volutpat nisi faucibus a. Nullam venenatis pretium justo sed adipiscing. Lorem ipsum dolor sit amet.</p>
-    <p class="title">Rutrum Diam Nec</p>
-    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. In rutrum diam nec metus ullamcorper consectetur. Sed tempor odio vitae mi imperdiet vulputate. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duis congue faucibus est,non volutpat nisi faucibus a. Nullam venenatis pretium justo sed adipiscing. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,consectetur adipiscing elit. In rutrum diam nec metus ullamcorper consectetur. Sed tempor odio vitae mi imperdiet vulputate. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duis congue faucibus est,non volutpat nisi faucibus a. Nullam venenatis pretium justo sed adipiscing. Lorem ipsum dolor sit amet.</p>
-    <ul>
-      <li>Vivamus vestibulum nulla nec ante</li>
-      <li>Praesent placerat risus quis eros</li>
-      <li>Fusce pellentesque suscipit nibh</li>
-      <li>Integer vitae libero ac risus egestas placerat</li>
-      <li>Vestibulum commodo felis quis tortor</li>
-    </ul>
-  </div>
-  <div class="row 3cols">
-    <div class="box small">
-      <h3 style="font-size: 24px;color: #666;">Dolor</h3>
-      Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Praesent um lestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.
-      </p>
-      <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Lestie lacus. Aenean nonummy hendrerit mauris. Phasellus portatysce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
-    </div>
-    <div class="box small middle">
-      <h3 style="font-size: 24px;color: #666;">Hendrerit</h3>
-      <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Praesent um lestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
-      <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Lestie lacus. Aenean nonummy hendrerit mauris. Phasellus portatysce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
-    </div>
-    <div class="box small">
-      <h3 style="font-size: 24px;color: #666;">Lestie</h3>
-      <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Praesent um lestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
-      <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Lestie lacus. Aenean nonummy hendrerit mauris. Phasellus portatysce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
-    </div>
-  </div>
 </div>
-</div>
-<div class="footer">
-<div class="center"></div>
-<div class="content">
-  <div class="block">
-    <h5>HENDRERIT</h5>
-    <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Lestie lacus. Aenean nonummy hendrerit mauris. Phasellus portatysce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
-  </div>
-  <ul class="menu">
-    <li class="title">about</li>
-    <li><a href="javascript:void(0);">Lorem</a></li>
-    <li><a href="javascript:void(0);">Ipsum</a></li>
-    <li><a href="javascript:void(0);">Dolor</a></li>
-    <li><a href="javascript:void(0);">Amet</a></li>
-  </ul>
-  <ul class="menu">
-    <li class="title">news</li>
-    <li><a href="javascript:void(0);">Lorem</a></li>
-    <li><a href="javascript:void(0);">Ipsum</a></li>
-    <li><a href="javascript:void(0);">Dolor</a></li>
-    <li><a href="javascript:void(0);">Amet</a></li>
-  </ul>
-  <ul class="menu">
-    <li class="title">contact</li>
-    <li><a href="javascript:void(0);">Lorem</a></li>
-    <li><a href="javascript:void(0);">Ipsum</a></li>
-    <li><a href="javascript:void(0);">Dolor</a></li>
-    <li><a href="javascript:void(0);">Amet</a></li>
-  </ul>
-</div>
-<div class="copy">Copyright © 2003-2012 </div>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
 <script type="text/javascript" src="slick.min.js"></script> 
+<script src="foundation.min.js"></script> 
+<script>$(document).foundation();</script> 
 <script src="scripts.js"></script>
 </body>
 </html>
